@@ -1,0 +1,250 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0; 
+  scroll-behavior:smooth;
+
+
+
+}
+
+.navigation-bar {
+    background-color: #516275;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 0.2%;
+}
+
+.navigation-item {
+    text-decoration: none;
+    text-align: center;
+    color: #f0efef;
+    font-size: 0.9rem;
+    padding: 2rem;   
+    align-items: center;
+}
+
+.navigation-item:hover {
+    background-color: #DADFF5;
+    color: #002333;
+    transition: 500ms;
+}
+
+.navigation-item.active {
+    background-color: #afb3c6;
+    color: #303136;
+    transition: 450ms;
+
+}
+
+/*Apple logo in navigation*/
+.apple{
+    margin-top: .4%;
+    margin-bottom: -0.2%;
+    height: 16px;
+    width: 16px;
+}
+
+.content {
+    margin-top: 3rem;
+    width: 70%;
+    margin: auto;
+}
+
+body {
+    background-image: url("images/istockphoto-1252847236-170667a.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 980px;
+    height: 1024px;
+    font-family: sans-serif;
+}
+
+/*Apple logo*/
+.logo{
+    height: 100px;
+    width: 410px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+/*iphone figure properties*/
+figure {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+ /*iphone image */
+#iphone  {
+    float: left;    
+    width: 220px;
+    height: 300px;
+}
+
+ /*figure caption*/
+figcaption a{
+    color: #000000;
+    font-size: 15px;        
+}
+
+/*paragaraph*/ 
+p{
+    font-size: 18px;
+    width: 700px;
+    line-height : 30px;
+    position: relative;
+    left: 60px;  
+}
+
+/* table 1 */
+.table1{
+   width:70%;
+   text-align: center;
+   font-size: 12px;
+   position: relative;
+   bottom:220px;
+   left:20px;
+   font-weight: bold;
+}
+table.table1, th, td {
+    font-family: sans-serif;
+    margin-left: 36%;  
+    border-style: none;
+    padding: 0.6rem;
+}
+table.table1 th {
+    color: #333333;
+}
+table.table1 td {
+    border: none;
+}
+
+
+
+/* table 2 */
+.table2 {
+	width:100%;
+    position: relative;
+    bottom:220px; 
+    zoom:70%
+}
+table.table2, th, td {
+    padding: 8px;  
+    border-collapse: collapse;
+}
+table.table2 th, td {
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+table.table2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f2d3c8e;
+    color: rgb(255, 255, 255);
+    height: 1px;
+}
+table.table2 td {
+    color: #544f4f;
+    height: 2px;
+}
+table.table2 tr:nth-child(even) {
+    background-color: #ffffff;
+}
+table.table2 tr:hover {
+    background-color: rgba(87, 85, 85, 0.269);
+}
+
+/*Border*/
+.border{
+    border-style:solid;
+    border-color:rgba(0, 0, 0, 0.562); 
+} 
+
+/*footer*/
+h6 {
+    text-align: center;
+    position:relative; 
+    line-height: 20px ;
+    bottom: 120px;
+  }
+
+/****************details.html******************/
+
+/*Back button in details*/
+.button{
+    display: inline-block;
+    background: linear-gradient(45deg,#516275, #848e9a);
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(15, 15, 99, 0.15);
+    margin-top: 2%; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: rgb(8, 11, 12); 
+ }
+
+.details-doc h1 {
+    left: 350px;
+    position: relative;
+    top:50px
+}
+
+ /*iphone image in detail.html*/
+.iphone{
+    width: 780px;
+    height: 824px;
+    margin-left: 10%;
+}
+
+/******************locations.html**********************/
+.map-text h1 {   
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.map-text img {   
+    zoom: 85%;
+}
+.table3{
+    width:100%;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    bottom:10px;
+    
+}
+table.table3 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+table.table3, th, td {
+     font-family: sans-serif;
+     border-style: none;
+     padding: 1rem;
+ }
+table.table3 th {
+     color: #333333;
+}
+table.table3 td {
+     border: none;
+}

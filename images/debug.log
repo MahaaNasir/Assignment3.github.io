@@ -1,0 +1,4 @@
+[1022/214753.933:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1025/060557.422:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1025/073048.770:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1025/221723.090:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
